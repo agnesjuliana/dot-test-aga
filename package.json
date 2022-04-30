@@ -1,0 +1,57 @@
+{
+  "name": "be-laundry-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "nyc mocha \"test/**/*.test.js\" --recursive --exit"
+  },
+  "author": "",
+  "license": "ISC",
+  "nyc": {
+    "lines":80,
+    "statements":80,
+    "functions":80,
+    "check-coverage":true,
+    "include":[
+      "bin/**/*.js"
+    ],
+    "exclude":[
+      "index.js"
+    ],
+    "reporter":[
+      "html",
+      "text",
+      "lconv",
+      "text-summary"
+    ],
+    "all":true,
+    "cache":true,
+    "report-dir":"./coverage"
+  },
+  "dependencies": {
+    "axios": "^0.27.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jsonwebtoken": "^8.5.1",
+    "md5": "^2.3.0",
+    "moment": "^2.29.3",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.15",
+    "passport": "^0.5.2",
+    "passport-http": "^0.3.0",
+    "redis": "^4.0.6",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "assert": "^2.0.0",
+    "chai": "^4.3.6",
+    "hippie": "^0.6.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^9.2.1",
+    "nyc": "^15.1.0",
+    "sinon": "^13.0.1"
+  }
+}
