@@ -3,7 +3,6 @@
 Backend 'Kasir Telur' for dot test
 
 Others link
-- Netifly
 - Folder Asset for test https://drive.google.com/drive/folders/1BHIthJqytqDp9GOS3SMn34gHfqebASES?usp=sharing
 - Folder Drive for video demo https://drive.google.com/drive/folders/1-Hkp1nsOiXCAW4uh1RwzZM3kITDvimrP?usp=sharing
 
