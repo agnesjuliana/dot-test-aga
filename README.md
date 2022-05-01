@@ -9,11 +9,11 @@ Others link
 
 
 Run Application
-git clone https://github.com/agnesjuliana/dot-test-aga.git
-npm install
-cd bin/database
-sequelize db:migrate 
-or you can manually import the .sql file that alvailable in here
-npm run start
+- git clone https://github.com/agnesjuliana/dot-test-aga.git
+- npm install
+- cd bin/database
+- sequelize db:migrate 
+or you can manually import the .sql file that alvailable in drive folder asset
+- npm run start
 
 For test necessary you can also import the postmant collection and env
